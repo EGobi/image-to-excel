@@ -1,0 +1,6 @@
+services:
+  imagetoexcel:
+    image: imagetoexcel
+    build:
+      context: .
+      dockerfile: ./Dockerfile
